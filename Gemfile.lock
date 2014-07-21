@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colored (1.2)
+    cri (2.6.1)
+      colored (~> 1.2)
+    i18n (0.6.11)
+    nanoc (3.7.1)
+      cri (~> 2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  i18n
+  nanoc (~> 3.7.1)
