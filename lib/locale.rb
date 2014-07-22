@@ -12,3 +12,11 @@ def set_locale_for_item(item)
   I18n.locale = :en
   I18n.locale = locale if I18n.available_locales.include?(locale.to_sym)
 end
+
+def locale
+  I18n.locale
+end
+
+def t(scope, options = {})
+  I18n.t(scope, options)
+end
