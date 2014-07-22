@@ -5,7 +5,7 @@ I18n.enforce_available_locales = false
 I18n::Backend::Simple.send(:include, I18n::Backend::Fallbacks)
 I18n.load_path += Dir[File.expand_path('../../locale/**/*.yml', __FILE__)]
 I18n.default_locale = :en
-I18n.available_locales = %w[ en pt ]
+I18n.available_locales = %w[ en pt-BR ]
 
 def set_locale_for_item(item)
   _, locale, _ = item.raw_filename.split('/')
