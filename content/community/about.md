@@ -1,7 +1,7 @@
 ---
 title: About
 locales:
-	en: community/about
+	pt-BR: pt-BR/comunidade/sobre
 ---
 
 <p>Enjoy!</p>
