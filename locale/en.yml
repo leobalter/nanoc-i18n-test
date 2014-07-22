@@ -1,4 +1,8 @@
 en:
-  A Brand New nanoc Site: Oh Ray!
-  Documentation: Docs
-  Community: Good Folks
+  brand_nanoc_site: 'A Brand New nanoc Site'
+  docs: Documentation
+  community: Community
+  getting_started: Getting Started
+  discussion_group: Discussion Group
+  irc: IRC Channel
+  wiki: Wiki

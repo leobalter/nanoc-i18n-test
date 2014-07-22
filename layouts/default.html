@@ -1,6 +1,6 @@
 <% set_locale_for_item(item) %>
 <!DOCTYPE HTML>
-<html lang="<%= I18n.locale %>">
+<html lang="<%= locale %>">
   <head>
     <meta charset="utf-8">
     <title>A Brand New nanoc Site - <%= @item[:title] %></title>
@@ -11,20 +11,20 @@
   </head>
   <body>
     <div id="main">
-      <h1><%= I18n.t('A Brand New nanoc Site') %></h1>
+      <h1><%= t('brand_nanoc_site') %></h1>
       <%= yield %>
     </div>
     <div id="sidebar">
-      <h2><%= I18n.t('Documentation') %></h2>
+      <h2><%= t('docs') %></h2>
       <ul>
-        <li><a href="http://nanoc.ws/docs/">Documentation</a></li>
-        <li><a href="http://nanoc.ws/docs/tutorial/">Getting Started</a></li>
+        <li><a href="http://nanoc.ws/docs/"><%= t('docs') %></a></li>
+        <li><a href="http://nanoc.ws/docs/tutorial/"><%= t('getting_started') %></a></li>
       </ul>
-      <h2><%= I18n.t('Community') %></h2>
+      <h2><%= t('community') %></h2>
       <ul>
-        <li><a href="http://groups.google.com/group/nanoc/">Discussion Group</a></li>
-        <li><a href="irc://chat.freenode.net/#nanoc">IRC Channel</a></li>
-        <li><a href="http://github.com/nanoc/nanoc/wiki/">Wiki</a></li>
+        <li><a href="http://groups.google.com/group/nanoc/"><%= t('discussion_group') %></a></li>
+        <li><a href="irc://chat.freenode.net/#nanoc"><%= t('irc') %></a></li>
+        <li><a href="http://github.com/nanoc/nanoc/wiki/"><%= t('wiki') %></a></li>
       </ul>
     </div>
   </body>

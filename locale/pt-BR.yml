@@ -1,4 +1,8 @@
 pt-BR:
-  A Brand New nanoc Site: Um novo site em nanoc
-  Documentation: Documentação
-  Community: Comunidade
+  brand_nanoc_site: 'Um novo site feito com Nanoc'
+  docs: Documentação
+  community: Comunidade
+  getting_started: Primeiros Passos
+  discussion_group: Grupo de discussão
+  irc: Canal de IRC
+  wiki: Wiki
