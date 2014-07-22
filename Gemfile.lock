@@ -1,12 +1,19 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    coderay (1.1.0)
     colored (1.2)
     cri (2.6.1)
       colored (~> 1.2)
     i18n (0.6.11)
+    method_source (0.8.2)
     nanoc (3.7.1)
       cri (~> 2.3)
+    pry (0.10.0)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    slop (3.6.0)
 
 PLATFORMS
   ruby
@@ -14,3 +21,4 @@ PLATFORMS
 DEPENDENCIES
   i18n
   nanoc (~> 3.7.1)
+  pry
