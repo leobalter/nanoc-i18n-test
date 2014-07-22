@@ -1,4 +1,4 @@
-<% set_locale_for_item(item) %>
+<% set_locale %>
 <!DOCTYPE HTML>
 <html lang="<%= locale %>">
   <head>
@@ -27,5 +27,21 @@
         <li><a href="http://github.com/nanoc/nanoc/wiki/"><%= t('wiki') %></a></li>
       </ul>
     </div>
+
+    <footer>
+      <p>
+        <%= t('see_this_page_in_language') %>
+      </p>
+
+      <ul>
+        <li>
+          <a href="<%= page_link_for_locale('pt-BR') %>">Português</a>
+        </li>
+
+        <li>
+          <a href="<%= page_link_for_locale('en') %>">English</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
